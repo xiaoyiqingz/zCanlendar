@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6B608B1E62B6BB001C05F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B608A1E62B6BB001C05F6 /* AppDelegate.m */; };
+		CC6B608E1E62B6BB001C05F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B608D1E62B6BB001C05F6 /* main.m */; };
+		CC6B60911E62B6BB001C05F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B60901E62B6BB001C05F6 /* ViewController.m */; };
+		CC6B60931E62B6BB001C05F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6B60921E62B6BB001C05F6 /* Assets.xcassets */; };
+		CC6B60961E62B6BB001C05F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B60941E62B6BB001C05F6 /* Main.storyboard */; };
+		CC6B60A11E62B6BB001C05F6 /* zCanlendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B60A01E62B6BB001C05F6 /* zCanlendarTests.m */; };
+		CC6B60AC1E62B6BB001C05F6 /* zCanlendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B60AB1E62B6BB001C05F6 /* zCanlendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6B609D1E62B6BB001C05F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6B607E1E62B6BB001C05F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6B60851E62B6BB001C05F6;
+			remoteInfo = zCanlendar;
+		};
+		CC6B60A81E62B6BB001C05F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6B607E1E62B6BB001C05F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6B60851E62B6BB001C05F6;
+			remoteInfo = zCanlendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC6B60861E62B6BB001C05F6 /* zCanlendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zCanlendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6B60891E62B6BB001C05F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC6B608A1E62B6BB001C05F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC6B608D1E62B6BB001C05F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC6B608F1E62B6BB001C05F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC6B60901E62B6BB001C05F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC6B60921E62B6BB001C05F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6B60951E62B6BB001C05F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC6B60971E62B6BB001C05F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6B609C1E62B6BB001C05F6 /* zCanlendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zCanlendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6B60A01E62B6BB001C05F6 /* zCanlendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zCanlendarTests.m; sourceTree = "<group>"; };
+		CC6B60A21E62B6BB001C05F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6B60A71E62B6BB001C05F6 /* zCanlendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zCanlendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6B60AB1E62B6BB001C05F6 /* zCanlendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zCanlendarUITests.m; sourceTree = "<group>"; };
+		CC6B60AD1E62B6BB001C05F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6B60831E62B6BB001C05F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6B60991E62B6BB001C05F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6B60A41E62B6BB001C05F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6B607D1E62B6BB001C05F6 = {
+			isa = PBXGroup;
+			children = (
+				CC6B60881E62B6BB001C05F6 /* zCanlendar */,
+				CC6B609F1E62B6BB001C05F6 /* zCanlendarTests */,
+				CC6B60AA1E62B6BB001C05F6 /* zCanlendarUITests */,
+				CC6B60871E62B6BB001C05F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6B60871E62B6BB001C05F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B60861E62B6BB001C05F6 /* zCanlendar.app */,
+				CC6B609C1E62B6BB001C05F6 /* zCanlendarTests.xctest */,
+				CC6B60A71E62B6BB001C05F6 /* zCanlendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6B60881E62B6BB001C05F6 /* zCanlendar */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B60891E62B6BB001C05F6 /* AppDelegate.h */,
+				CC6B608A1E62B6BB001C05F6 /* AppDelegate.m */,
+				CC6B608F1E62B6BB001C05F6 /* ViewController.h */,
+				CC6B60901E62B6BB001C05F6 /* ViewController.m */,
+				CC6B60921E62B6BB001C05F6 /* Assets.xcassets */,
+				CC6B60941E62B6BB001C05F6 /* Main.storyboard */,
+				CC6B60971E62B6BB001C05F6 /* Info.plist */,
+				CC6B608C1E62B6BB001C05F6 /* Supporting Files */,
+			);
+			path = zCanlendar;
+			sourceTree = "<group>";
+		};
+		CC6B608C1E62B6BB001C05F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B608D1E62B6BB001C05F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC6B609F1E62B6BB001C05F6 /* zCanlendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B60A01E62B6BB001C05F6 /* zCanlendarTests.m */,
+				CC6B60A21E62B6BB001C05F6 /* Info.plist */,
+			);
+			path = zCanlendarTests;
+			sourceTree = "<group>";
+		};
+		CC6B60AA1E62B6BB001C05F6 /* zCanlendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B60AB1E62B6BB001C05F6 /* zCanlendarUITests.m */,
+				CC6B60AD1E62B6BB001C05F6 /* Info.plist */,
+			);
+			path = zCanlendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6B60851E62B6BB001C05F6 /* zCanlendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6B60B01E62B6BB001C05F6 /* Build configuration list for PBXNativeTarget "zCanlendar" */;
+			buildPhases = (
+				CC6B60821E62B6BB001C05F6 /* Sources */,
+				CC6B60831E62B6BB001C05F6 /* Frameworks */,
+				CC6B60841E62B6BB001C05F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zCanlendar;
+			productName = zCanlendar;
+			productReference = CC6B60861E62B6BB001C05F6 /* zCanlendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC6B609B1E62B6BB001C05F6 /* zCanlendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6B60B31E62B6BB001C05F6 /* Build configuration list for PBXNativeTarget "zCanlendarTests" */;
+			buildPhases = (
+				CC6B60981E62B6BB001C05F6 /* Sources */,
+				CC6B60991E62B6BB001C05F6 /* Frameworks */,
+				CC6B609A1E62B6BB001C05F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6B609E1E62B6BB001C05F6 /* PBXTargetDependency */,
+			);
+			name = zCanlendarTests;
+			productName = zCanlendarTests;
+			productReference = CC6B609C1E62B6BB001C05F6 /* zCanlendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC6B60A61E62B6BB001C05F6 /* zCanlendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6B60B61E62B6BB001C05F6 /* Build configuration list for PBXNativeTarget "zCanlendarUITests" */;
+			buildPhases = (
+				CC6B60A31E62B6BB001C05F6 /* Sources */,
+				CC6B60A41E62B6BB001C05F6 /* Frameworks */,
+				CC6B60A51E62B6BB001C05F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6B60A91E62B6BB001C05F6 /* PBXTargetDependency */,
+			);
+			name = zCanlendarUITests;
+			productName = zCanlendarUITests;
+			productReference = CC6B60A71E62B6BB001C05F6 /* zCanlendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6B607E1E62B6BB001C05F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张哲";
+				TargetAttributes = {
+					CC6B60851E62B6BB001C05F6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC6B609B1E62B6BB001C05F6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6B60851E62B6BB001C05F6;
+					};
+					CC6B60A61E62B6BB001C05F6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6B60851E62B6BB001C05F6;
+					};
+				};
+			};
+			buildConfigurationList = CC6B60811E62B6BB001C05F6 /* Build configuration list for PBXProject "zCanlendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6B607D1E62B6BB001C05F6;
+			productRefGroup = CC6B60871E62B6BB001C05F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6B60851E62B6BB001C05F6 /* zCanlendar */,
+				CC6B609B1E62B6BB001C05F6 /* zCanlendarTests */,
+				CC6B60A61E62B6BB001C05F6 /* zCanlendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6B60841E62B6BB001C05F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6B60931E62B6BB001C05F6 /* Assets.xcassets in Resources */,
+				CC6B60961E62B6BB001C05F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6B609A1E62B6BB001C05F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6B60A51E62B6BB001C05F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6B60821E62B6BB001C05F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6B60911E62B6BB001C05F6 /* ViewController.m in Sources */,
+				CC6B608E1E62B6BB001C05F6 /* main.m in Sources */,
+				CC6B608B1E62B6BB001C05F6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6B60981E62B6BB001C05F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6B60A11E62B6BB001C05F6 /* zCanlendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6B60A31E62B6BB001C05F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6B60AC1E62B6BB001C05F6 /* zCanlendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6B609E1E62B6BB001C05F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6B60851E62B6BB001C05F6 /* zCanlendar */;
+			targetProxy = CC6B609D1E62B6BB001C05F6 /* PBXContainerItemProxy */;
+		};
+		CC6B60A91E62B6BB001C05F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6B60851E62B6BB001C05F6 /* zCanlendar */;
+			targetProxy = CC6B60A81E62B6BB001C05F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6B60941E62B6BB001C05F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6B60951E62B6BB001C05F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6B60AE1E62B6BB001C05F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC6B60AF1E62B6BB001C05F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC6B60B11E62B6BB001C05F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = zCanlendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.zCanlendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC6B60B21E62B6BB001C05F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = zCanlendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.zCanlendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC6B60B41E62B6BB001C05F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = zCanlendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.zCanlendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zCanlendar.app/Contents/MacOS/zCanlendar";
+			};
+			name = Debug;
+		};
+		CC6B60B51E62B6BB001C05F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = zCanlendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.zCanlendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zCanlendar.app/Contents/MacOS/zCanlendar";
+			};
+			name = Release;
+		};
+		CC6B60B71E62B6BB001C05F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = zCanlendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.zCanlendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zCanlendar;
+			};
+			name = Debug;
+		};
+		CC6B60B81E62B6BB001C05F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = zCanlendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhe.zCanlendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zCanlendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6B60811E62B6BB001C05F6 /* Build configuration list for PBXProject "zCanlendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6B60AE1E62B6BB001C05F6 /* Debug */,
+				CC6B60AF1E62B6BB001C05F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6B60B01E62B6BB001C05F6 /* Build configuration list for PBXNativeTarget "zCanlendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6B60B11E62B6BB001C05F6 /* Debug */,
+				CC6B60B21E62B6BB001C05F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6B60B31E62B6BB001C05F6 /* Build configuration list for PBXNativeTarget "zCanlendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6B60B41E62B6BB001C05F6 /* Debug */,
+				CC6B60B51E62B6BB001C05F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6B60B61E62B6BB001C05F6 /* Build configuration list for PBXNativeTarget "zCanlendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6B60B71E62B6BB001C05F6 /* Debug */,
+				CC6B60B81E62B6BB001C05F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6B607E1E62B6BB001C05F6 /* Project object */;
+}
